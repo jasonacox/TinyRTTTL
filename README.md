@@ -5,11 +5,11 @@
 Arduino Library to play RTTTL Songs on Speaker
 
 ## Description
-This is an Arduino library to decode and play RTTTL (RingTone Text Transfer Language) songs via the tone() function. Works well with small piezo speakers. 
+This is an Arduino library to decode and play RTTTL (RingTone Text Transfer Language) songs via the tone() function. Works well with tiny piezo speakers. 
 
-Ring Tone Text Transfer Language (RTTTL) was developed by Nokia to be used to define ringtones to be used in their cellphones (see [Wikipedia](https://en.wikipedia.org/wiki/Ring_Tone_Transfer_Language))  The format made it easy for people to create their favorite songs as ringtones. There are many available online.
+Ring Tone Text Transfer Language (RTTTL) was developed by Nokia to define ringtones to be used on their cellphones (see [Wikipedia](https://en.wikipedia.org/wiki/Ring_Tone_Transfer_Language)).  The format made it easy for people to create their favorite songs as ringtones. There are many song and tools for RTTTL available online. This library makes it easy for you to import and use those tunes in your Arduino projects.
 
-Library also runs well on tiny controllers including the ATtiny85.
+This library also runs well on the Arduino Uno, ESP8266 and tiny controllers like the ATtiny85.
 
 ## Hardware
 This library is designed to use the Arduino built in tone() function to play the notes on an attached piezo speaker (see [here](https://create.arduino.cc/projecthub/SURYATEJA/use-a-buzzer-module-piezo-speaker-using-arduino-uno-89df45)).
@@ -33,19 +33,19 @@ The library provides a single class named TM1637TinyDisplay with the following f
 #include <TinyRTTTL.h>
 
 // Define Location of Speaker
-#define SPK 1
+#define SPEAKER D1
 
 // Define Octive Offset
 #define OCTIVE 0
 
 // Initialize TM1637TinyDisplay
-TinyRTTTL rtttl(SPK, OCTIVE);
+TinyRTTTL rtttl(SPEAKER, OCTIVE);
 
 // Sample song to play in RTTTL format
 char *song = "SMBtheme:d=4,o=5,b=100:16e6,16e6,32p,8e6,16c6,8e6,8g6,8p,8g,8p,8c6,16p,8g,16p,8e,16p,8a,8b,16a#,8a,16g.,16e6,16g6,8a6,16f6,8g6,8e6,16c6,16d6,8b,16p,8c6,16p,8g,16p,8e,16p,8a,8b,16a#,8a,16g.,16e6,16g6,8a6,16f6,8g6,8e6,16c6,16d6,8b,8p,16g6,16f#6,16f6,16d#6,16p,16e6,16p,16g#,16a,16c6,16p,16a,16c6,16d6,8p,16g6,16f#6,16f6,16d#6,16p,16e6,16p,16c7,16p,16c7,16c7,p,16g6,16f#6,16f6,16d#6,16p,16e6,16p,16g#,16a,16c6,16p,16a,16c6,16d6,8p,16d#6,8p,16d6,8p,16c6";
 
 void setup() {
-  rtttl.play(song)
+  rtttl.play(song);
 }
 
 void loop() {
