@@ -14,9 +14,11 @@ TinyRTTTL rtttl(SPEAKER, OCTIVE);
 
 // Sample songs to play in RTTTL format - uncomment the one you want to hear
 char *song = "PacMan:d=16,o=6,b=140:b5,b,f#,d#,8b,8d#,c,c7,g,f,8c7,8e,b5,b,f#,d#,8b,8d#,32d#,32e,f,32f,32f#,g,32g,32g#,a,8b";
+//char *song = "fifth:d=4,o=5,b=63:8g5,32p,8g5,32p,8g5,2d#5";
 //char *song = "Zelda:o=5,b=160,f=aeb:4b,4f+8.f,16b,16b,16c1,16d1,16e1,2f1,8p,8f1,12f1,12g_1,12a1,2b1,12p,12b1,12b1,12b1,12a1,12g_1,8.a1,16g_1,2f1,4f1,8e1,16e1,16f1,2g_1,8f1,8e1,8d_1,16d_1,16e1,2f1,8e1,8d_1,8c1,16c1,16d1,2e#1,4g1,8f1,16f,16f,8f,16f,16f,8f,16f,16f,8f,8f";
 //char *song = "Imperial:d=4,o=5,b=112:8g,16p,8g,16p,8g,16p,16d#.,32p,32a#.,8g,16p,16d#.,32p,32a#.,g,8p,32p,8d6,16p,8d6,16p,8d6,16p,16d#.6,32p,32a#.,8f#,16p,16d#.,32p,32a#.,g,8p,32p,8g6,16p,16g.,32p,32g.,8g6,16p,16f#.6,32p,32f.6,32e.6,32d#.6,16e6,8p,16g#,32p,8c#6,16p,16c.6,32p,32b.,32a#.,32a.,16a#,8p,16d#,32p,8f#,16p,16d#.,32p,32g.,8a#,16p,16g.,32p,32a#.,d6,8p,32p,8g6,16p,16g.,32p,32g.,8g6,16p,16f#.6,32p,32f.6,32e.6,32d#.6,16e6,8p,16g#,32p,8c#6,16p,16c.6,32p,32b.,32a#.,32a.,16a#,8p,16d#,32p,8f#,16p,16d#.,32p,32g.,8g,16p,16d#.,32p,32a#.,g";
 //char *song = "HedwigsT:d=8,o=6,b=125:c.,16d#,d,4c,g,4f.,4d.,c.,16d#,d,4b5,c#,4g5,4p,g5,c.,16d#,d,4c,g,4a#,a,4g#,e,g#.,16g,4f#,p,d#,4c.,4p,g5";
+//char *song = "HBday:d=4,o=5,b=125:8d.,16d,e,d,g,2f#,8d.,16d,e,d,a,2g,8d.,16d,d6,b,g,f#,2e,8c.6,16c6,b,g,a,2g";
 //char *song = "HappyBir:d=4,o=6,b=225:c5,c5,d5,c5,f5,e5,p,c5,c5,d5,c5,g5,f5,p,c5,c5,a5,g5,f5,e5,d5,p,a5,a5,g5,f5,g5,f5";
 //char *song = "AxelF2:d=4,o=5,b=100:8g#6,16p,8a#6,16p,16g#6,16p,16g#6,16c#7,16p,16g#6,16p,16f#6,8p,16p,8d#7,16p,16g#6,16p,16g#6,16d#7,16p,16d#7,16p,16a#6,8p,16d#7,16p,16g#7,16p,16g#6,16f#6,16p,16f#6,16d#6,16p,16a#6,8p";
 //char *song = "AxelF:d=4,o=6,b=125:e5,8g.5,8e5,16e5,8a5,8e5,8d5,e5,8b.5,16e5,8c,8b5,8g5,8e5,8b5,8e,16e5,8d5,16d5,8b5,16f_5,e.5,2p,8g.5,8e5,16e5,8a5,8e5,8d5,e5,8b.5,8e5,16e5,8c,8b5,8g5,8e5,8b5,8e,16e5,8d5,16d5,8b5,8f_5,e.5";

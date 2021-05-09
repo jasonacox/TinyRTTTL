@@ -9,6 +9,11 @@ This is an Arduino library to decode and play RTTTL (RingTone Text Transfer Lang
 
 Ring Tone Text Transfer Language (RTTTL) was developed by Nokia to define ringtones to be used on their cellphones (see [Wikipedia](https://en.wikipedia.org/wiki/Ring_Tone_Transfer_Language)).  The format made it easy for people to create their favorite songs as ringtones. There are many song and tools for RTTTL available online. This library makes it easy for you to import and use those tunes in your Arduino projects.
 
+Sample RTTTL Song
+```
+    fifth:d=4,o=5,b=63:8g5,32p,8g5,32p,8g5,2d#5
+```
+
 This library also runs well on the Arduino Uno, ESP8266 and tiny controllers like the ATtiny85.
 
 ## Hardware
