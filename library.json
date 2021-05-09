@@ -1,0 +1,15 @@
+{
+  "name": "TinyRTTTL",
+  "keywords": "RTTTL, song, piezo, speaker",
+  "description": "A tiny Arduino library to decode and play RTTTL (RingTone Text Transfer Language) songs via the tone() function.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasonacox/TinyRTTTL.git"
+  },
+  "authors": {
+    "name": "Jason Cox",
+    "url": "https://jasonacox.com"
+  },
+  "frameworks": "arduino",
+  "platforms": "*"
+}
