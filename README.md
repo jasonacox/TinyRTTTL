@@ -37,8 +37,8 @@ The library provides a single class named TM1637TinyDisplay with the following f
 #include <Arduino.h>
 #include <TinyRTTTL.h>
 
-// Define Location of Speaker
-#define SPEAKER D1
+// Define Location of Speaker - Pin
+#define SPEAKER 4
 
 // Define Octive Offset
 #define OCTIVE 0
