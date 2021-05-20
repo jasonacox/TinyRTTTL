@@ -4,7 +4,7 @@
 #include <TinyRTTTL.h>
 
 // Define Location of Speaker
-#define SPEAKER D1
+#define SPEAKER 4
 
 // Define Octive Offset
 #define OCTIVE 0
