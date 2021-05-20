@@ -10,7 +10,7 @@ before_install:
 install:
   - ln -s $PWD /usr/local/share/arduino/libraries/TinyRTTTL
 script:
-  - arduino --verify --board arduino:avr:uno --pref sketchbook.path="$PWD" $PWD/examples/sample.ino
+  - arduino --verify --board arduino:avr:uno --pref sketchbook.path="$PWD" $PWD/examples/sample/sample.ino
 notifications:
   email:
     on_success: change
