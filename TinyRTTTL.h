@@ -137,7 +137,7 @@ public:
   //! @param p - Pointer to string containing RTTTL formatted song to play
   void play(char *p);
 
-  //! Play a RTTTL song (PROGMEM space)
+  //! Play a RTTTL song (PROGMEM space) [to do]
   //!
   //! The string contains a RTTTL formatted song to be played.
   //! This function is for reading PROGMEM read-only flash memory space instead of RAM
