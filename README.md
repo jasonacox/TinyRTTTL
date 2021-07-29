@@ -1,6 +1,6 @@
 # TinyRTTTL - Arduino RTTTL Song Player # 
 [![arduino-library-badge](https://www.ardu-badge.com/badge/TinyRTTTL.svg?)](https://www.ardu-badge.com/TinyRTTTL)
-[![Build Status](https://travis-ci.org/jasonacox/TinyRTTTL.svg?branch=master)](https://travis-ci.org/github/jasonacox/TinyRTTTL)
+[![Build Status](https://travis-ci.com/jasonacox/TinyRTTTL.svg?branch=master)](https://travis-ci.com/jasonacox/TinyRTTTL)
 
 Arduino Library to play RTTTL Songs on Speaker
 
