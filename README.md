@@ -27,7 +27,7 @@ This library is designed to use the Arduino built in tone() function to play the
 Install this manually by cloning this repo into your Arduino library folder (e.g. `~/Documents/Arduino/libraries`).  
 
 ## Usage
-The library provides a single class named TM1637TinyDisplay with the following functions:
+The library provides a single class named TinyRTTTL with the following functions:
 
 * `play` - Play song by passing RTTTL string to function
 * `play_P` - PROGMEM function of the above to keep data in Flash instead of being loaded in to SRAM to save memory. 
@@ -43,7 +43,7 @@ The library provides a single class named TM1637TinyDisplay with the following f
 // Define Octive Offset
 #define OCTIVE 0
 
-// Initialize TM1637TinyDisplay
+// Initialize TinyRTTTL
 TinyRTTTL rtttl(SPEAKER, OCTIVE);
 
 // Sample song to play in RTTTL format
