@@ -13,7 +13,10 @@ TinyRTTTL::TinyRTTTL(uint8_t pinSpk, int octive)
   // Pin and octive offset settings
   m_pinSpk = pinSpk;
   m_octive = octive;
+}
 
+void TinyRTTTL::begin()
+{
   // Initialize speaker
   noTone(m_pinSpk);
 }

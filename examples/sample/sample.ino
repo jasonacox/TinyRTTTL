@@ -56,6 +56,7 @@ char *song = "PacMan:d=16,o=6,b=140:b5,b,f#,d#,8b,8d#,c,c7,g,f,8c7,8e,b5,b,f#,d#
 //char *song = "Fugees-KillingMeSoftly:d=4,o=5,b=90:p,8e,f.,8g,a.,8g,d,g.,p,8a,g.,8f,e.,8f,c.,2p,8e,f.,8g,a.,8g,a,b,8b,c6,8b,a,g,2a";
 
 void setup() {
+  rtttl.begin();
   rtttl.play(song);
 }
 

@@ -8,6 +8,7 @@ TinyRTTTL	KEYWORD1
 # Methods and Functions (KEYWORD2)
 #######################################
 
+begin	KEYWORD2
 play	KEYWORD2
 play_P	KEYWORD2
 

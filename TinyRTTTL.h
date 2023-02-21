@@ -130,6 +130,11 @@ public:
   //! @param octive - The octive offsite
   TinyRTTTL(uint8_t pinSpk, int octive = OCTAVE_OFFSET);
 
+  //! Initialize Speaker
+  //!
+  //! This method should be called once (typically in setup()) before calling any other.
+  void begin();
+
   //! Play a RTTTL song 
   //!
   //! The string contains a RTTTL formatted song to be played.

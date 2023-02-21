@@ -50,6 +50,7 @@ TinyRTTTL rtttl(SPEAKER, OCTIVE);
 char *song = "fifth:d=4,o=5,b=63:8g5,32p,8g5,32p,8g5,2d#5";
 
 void setup() {
+  rtttl.begin();
   rtttl.play(song);
 }
 
